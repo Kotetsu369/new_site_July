@@ -17,8 +17,9 @@
         <img src="{% static 'main/img/japan.jpg' %}" alt="Лого" >
         <span class="logo"> Trip to Japan</span>
         <ul>
-            <a href=""> <li><i class="fa-solid fa-house"></i>Главная</li> </a>
-            <a href=""> <li><i class="fa-solid fa-users-line"></i> Про нас</li> </a>
+            <a href="{% url 'home' %}"> <li><i class="fa-solid fa-house"></i>Главная</li> </a>
+            <a href="{% url 'about' %}"> <li><i class="fa-solid fa-users-line"></i> Про нас</li> </a>
+            <a href="{% url 'news_home' %}"> <li><i class="fa-regular fa-newspaper"></i> Новости </li> </a>
             <a href=""> <li> <i class="fa-regular fa-address-card"></i> Контакты</li> </a>
         </ul>
     </aside>
