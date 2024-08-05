@@ -47,3 +47,10 @@ main .features {
 
 main .features h1 {front-size: 50px; text-align: center}
 main .features p {max-width:400px; margin: 20px auto}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 80%;
+    margin: 20px 15%;
+}
