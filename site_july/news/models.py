@@ -5,6 +5,7 @@ class Articles(models.Model):
     anons = models.CharField('Анонс', max_length=250)
     full_text = models.TextField('Статья')
     date = models.DateTimeField('Дата публикации')
+    time = models.TimeField('Время публикации')
 
     def __str__(self):
         return self.title
