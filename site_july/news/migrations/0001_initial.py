@@ -19,6 +19,7 @@ class Migration(migrations.Migration):
                 ('anons', models.CharField(max_length=250, verbose_name='Анонс')),
                 ('full_text', models.TextField(verbose_name='Статья')),
                 ('date', models.DateTimeField(verbose_name='Дата публикации')),
+                ('time', models.TimeField(verbose_name='Дата публикации')),
             ],
         ),
     ]

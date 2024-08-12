@@ -4,7 +4,7 @@ class Articles(models.Model):
     title = models.CharField('Название', max_length=50)
     anons = models.CharField('Анонс', max_length=250)
     full_text = models.TextField('Статья')
-    date = models.DateTimeField('Дата публикации')
+    date = models.DateField('Дата публикации')
     time = models.TimeField('Время публикации')
 
     def __str__(self):
